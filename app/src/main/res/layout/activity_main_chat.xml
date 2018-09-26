@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainChatActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#dff9fb"
+    >
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_listView"
+        android:transcriptMode="alwaysScroll"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:footerDividersEnabled="false"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/baseline">
+    </ListView>
+    <LinearLayout
+        android:id="@+id/baseline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/messageInput"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:hint="@string/EditTextHint"
+            android:inputType="text"
+            android:imeActionLabel="Send"
+            android:gravity="center_horizontal"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendButton"
+            android:background="@drawable/circle_buton"
+            android:padding="10dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:contentDescription="@string/ImageButton_contentDiscription"/>
+    </LinearLayout>
+
+
+
+    </RelativeLayout>

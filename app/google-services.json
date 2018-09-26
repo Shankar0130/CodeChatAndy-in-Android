@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "810855850043",
+    "firebase_url": "https://codechatandy-f58ff.firebaseio.com",
+    "project_id": "codechatandy-f58ff",
+    "storage_bucket": "codechatandy-f58ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810855850043:android:88ce15ab43db1af0",
+        "android_client_info": {
+          "package_name": "com.shankaryadav.www.codechatandy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810855850043-3rfnn5h6ghdktn98cv9qs9o4e8mp3u58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shankaryadav.www.codechatandy",
+            "certificate_hash": "e9850c0d20673f50bf2f603b8032dbce1f05e00a"
+          }
+        },
+        {
+          "client_id": "810855850043-jmgrpl2f792jimlllqa5g799nco6ms3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbjHBcXV9iH82Oz2kMUL-YcNye4ympjYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810855850043-jmgrpl2f792jimlllqa5g799nco6ms3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
